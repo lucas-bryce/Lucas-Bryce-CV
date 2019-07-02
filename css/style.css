@@ -1,0 +1,160 @@
+
+/* Main CSS */
+body {
+    background-image: linear-gradient(to bottom right, white, #939596);;
+    font-family: 'PT Serif', serif;
+    color: #191D32;
+    margin: 0;
+}
+
+.main-header {
+    padding: 10px;
+}
+
+.main-header h1 {
+    font-size: 52px;
+}
+
+.font-highlight {
+    color: #007375;
+}
+
+.secondary-header {
+    background-color: #007375;
+    border: 5px solid #007375;
+    font-family: 'PT Serif', serif;
+    padding: 10px;
+    padding-right: 700px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.main-body {
+    padding: 20px;
+}
+
+.main-body strong {
+    font-size: 18px;
+}
+
+.qualifications {
+    padding-right: 30px;
+}
+
+.experience {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.skills {
+    padding-left: 30px;
+}
+
+.contact {
+    margin-bottom: 80px;
+}
+
+.job-heading {
+    font-weight: normal;
+}
+
+.side-bar {
+    width: 30%; float: left;
+}
+
+.content {
+    width: 60%; 
+    float: left;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    border-left: 5px groove lightgrey;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #007375;
+}
+
+
+/* Changes style when window width is decreased */
+@media screen and (max-width: 1500px) {
+
+    .secondary-header {
+        width: 80%;
+        padding: 10px;
+        padding-right: 700px;
+    }
+
+    .side-bar {
+        width: 95%;
+        padding-left: 0px;
+    }
+
+    .content {
+        border: initial;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .experience {
+        padding-left: 0px;
+    }
+
+    .skills {
+        padding-left: 0px;
+    }
+
+    footer {
+        padding-left: 20px;
+        clear: both;
+        text-align: left;
+    }
+  }
+
+  /* Changes style for phones */
+@media screen and (max-width: 750px) {
+
+    body {
+        width: 100%;
+    }
+
+    .secondary-header {
+        padding: 10px;
+        padding-right: 100px;
+        width: auto;
+    }
+
+    .main-header {
+    }
+
+    .side-bar {
+        padding: 0px;
+    }
+
+    .content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .experience {
+        padding: 0px;
+    }
+
+    .skills {
+        padding: 0px;
+    }
+
+    footer {
+        padding-left: 20px;
+    }
+
+    .contact {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+}
